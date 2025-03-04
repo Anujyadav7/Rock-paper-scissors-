@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🪨📄✂️</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="icons-container">
+      <span class="rock-btn">Rock🪨</span>
+      <span class="paper-btn">Paper📃</span>
+      <span class="scissors-btn">Scissors✂️</span>
+    </div>
+    <div class="hands">
+      <div class="user-hand">
+        <p>Your score (<span class="user-score">0</span>)</p>
+        <span class="user hand-icon">🤜</span>
+      </div>
+      <div class="computer-hand">
+        <p>Anuj's score (<span class="computer-score">0</span>)</p>
+        <span class="computer hand-icon">🤛</span>
+      </div>
+
+    </div>
+    <div class="result">Start Playing!!</div>
+     <!-- Popup Structure -->
+<div class="popup-overlay">
+  <div class="popup-content">
+      <h2 class="popup-title"></h2>
+      <button class="popup-close-btn">Play Again</button>
+  </div>
+</div>
+
+<!-- Audios -->
+<audio class="click-sound" src="sounds/click.mp3" preload="auto"></audio>
+<audio class="shake-sound" src="sounds/shake.mp3" preload="auto"></audio>
+<audio class="win-sound" src="sounds/win.mp3" preload="auto"></audio>
+<audio class="lose-sound" src="sounds/lose.mp3" preload="auto"></audio>
+  </body>
+</html>
